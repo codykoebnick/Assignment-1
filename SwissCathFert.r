@@ -7,13 +7,15 @@ output: html_document
 ##Cody Koebnick & Rafael Palomino
 
 ```{r}
-data(swiss) -- 
-?swiss -- This opens up the help page with information on the data set. It can also be used for functions.
-view(swiss)
-summary(swiss)
+data(swiss) ##This loads the dataframe.
+?swiss ##Opens up the help page with information on the dataframe. It can also be used for functions.
+summary(swiss) ##Gives statistical information such as mean and median for each component/variable.
 
+hist(swiss$Catholic, main = 'Catholicism in Swiss provinces (1888)', xlab = '% catholic (as opposed to protestant)')
 
-hist(swiss$Catholic) -- By using the component selector "$", the function applies to only a part of the object.
+##This creates a histogram of the information.
+##The functions 'main' and 'xlab' add labels to the histogram created.
+##By using the component selector "$", the function applies to only a part of the object.
 plot(swiss$Catholic, swiss$Fertility, xlab="percentage catholic", 
      ylab="Fertility", main="Rate of catholicism compared with fertility")
 
@@ -24,5 +26,3 @@ var(swiss)
 
 ### Add dynamic link to another file 
 ### example - source(UKDriverDeaths.R)
-
-
