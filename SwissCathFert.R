@@ -24,6 +24,6 @@ plot(swiss$Catholic, swiss$Fertility, xlab='Percentage catholic', ylab='Fertilit
 
 var(swiss) ##Computes the variance of swiss
 
-### Add dynamic link to another file 
-### example - source(ChickWeight.r)
+##Add dynamic link to another file
+source(ChickWeight.R)
 ```
