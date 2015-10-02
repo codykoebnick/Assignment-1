@@ -1,13 +1,19 @@
-## Assignment 1
+---
+title: Assignment 1
+output: html_document
+---
+
+#Assignment 1
 ##Cody Koebnick & Rafael Palomino
 
-data(swiss)
-View(swiss)
+```{r}
+data(swiss) -- 
+?swiss -- This opens up the help page with information on the data set. It can also be used for functions.
+view(swiss)
 summary(swiss)
-?swiss
 
 
-hist(swiss$Catholic)
+hist(swiss$Catholic) -- By using the component selector "$", the function applies to only a part of the object.
 plot(swiss$Catholic, swiss$Fertility, xlab="percentage catholic", 
      ylab="Fertility", main="Rate of catholicism compared with fertility")
 
