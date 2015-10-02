@@ -1,5 +1,5 @@
-
-Pair Assignment 1
+MPP E-1180: Introduction to Collaborative Social Science Data Analysis
+Pair Assignment 1 - 2 October 2015
 Cody Koebnick and Rafael Palomino
 
 
