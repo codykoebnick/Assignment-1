@@ -1,0 +1,22 @@
+## Assignment 1
+##Cody Koebnick & Rafael Palomino
+
+data(swiss)
+View(swiss)
+summary(swiss)
+?swiss
+
+
+hist(swiss$Catholic)
+plot(swiss$Catholic, swiss$Fertility, xlab="percentage catholic", 
+     ylab="Fertility", main="Rate of catholicism compared with fertility")
+
+## too many outliers to determine relationship
+plot(swiss$Catholic, swiss$Education)
+
+var(swiss)
+
+### Add dynamic link to another file 
+### example - source(UKDriverDeaths.R)
+
+
