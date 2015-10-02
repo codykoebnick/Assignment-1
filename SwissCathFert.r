@@ -25,4 +25,4 @@ plot(swiss$Catholic, swiss$Education)
 var(swiss)
 
 ### Add dynamic link to another file 
-### example - source(UKDriverDeaths.R)
+### example - source(ChickWeight.r)
