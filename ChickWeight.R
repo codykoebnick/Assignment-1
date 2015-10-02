@@ -1,7 +1,13 @@
-## Assignment 1
-## Cody Koebnick and Rafael Palomino
-## File 2, second data set
+---
+title: Assignment 1
+output: html_document
+---
 
+#Assignment 1
+##Cody Koebnick and Rafael Palomino
+File 2, second data set
+
+```{r}
 library(MASS)
 
 ## Loading the data
@@ -25,3 +31,4 @@ plot(ChickWeight$Time, ChickWeight$weight)
 
 #attempt at a dynamic-link
 source(SwissCathFert.R)
+```
